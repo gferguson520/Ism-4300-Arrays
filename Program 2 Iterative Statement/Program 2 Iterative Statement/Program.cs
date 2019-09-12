@@ -32,6 +32,7 @@ namespace Program_2_Iterative_Statement
                 Console.WriteLine("Please press Enter to end this program, thank you for your time!");
                 Console.ReadLine();
              }
+            // a catch to watch out for errors
             catch
             {
                 Console.WriteLine("An Error has occured, check your integer that you have entered.");
