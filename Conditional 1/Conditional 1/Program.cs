@@ -18,7 +18,7 @@ namespace Conditional_1
                 //string is needed to correlate the variables created.
                 string input = Console.ReadLine();
                 int NEW_INP = int.Parse(input);
-
+                //starting from A to F 
                 if (NEW_INP >= 90)
                 {
                     Console.WriteLine("You have reecieved a A!! Good Job!");
