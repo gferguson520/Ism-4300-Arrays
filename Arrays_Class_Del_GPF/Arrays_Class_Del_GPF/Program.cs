@@ -23,6 +23,7 @@ namespace Arrays_Class_Del_GPF
             {
                 //Having a writeLine for information to display an iteration for each element in the Array to be seen by the user.
                 Console.WriteLine("Element Value = " + i);
+                Console.WriteLine("Processing Iteration within the array");
                 //Making an ending writeline statement to allow the user to know the array has finished.
                 if (Array[i]== 25)
                 {
