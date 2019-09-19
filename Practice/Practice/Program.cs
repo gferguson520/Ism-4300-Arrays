@@ -20,8 +20,6 @@ namespace Practice
 
             Console.WriteLine("What grades do you expect to get in ISM 4300?");
 
-           
-
             try
             {
                 //string is needed to correlate the variables created.
@@ -59,8 +57,6 @@ namespace Practice
                 Console.WriteLine("You have an error");
             }
             Console.WriteLine("What grades do you expect to get in ISM 4311?");
-
-            
 
             try
             {
