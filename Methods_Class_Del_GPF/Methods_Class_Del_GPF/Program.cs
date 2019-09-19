@@ -16,18 +16,17 @@ namespace Methods_Class_Del_GPF
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your name!");
+            GPF(); //Setting up/creating and naming the GPF method 
+            Console.ReadKey(true);
+        }
+        private static void GPF()  //allow the method to be called after being created
+        {
+            Console.WriteLine("Please type in your name: "); //allowing the user to input their name
+            string input = Console.ReadLine();
+            Console.WriteLine("Hi " + input + "!"); //grabs the users name to put into a hello user statement
 
-            try
-            {
-                // This variable will gather data from user input
-                string input = Console.ReadLine();
-                
-            }
-            catch
-            {
-
-            }
+            Console.WriteLine("Press any key to end the application"); //Extra code to allow user to know to end the application 
+            Console.ReadKey(); //Readkey to be able to see the results inputed
         }
     }
 }
